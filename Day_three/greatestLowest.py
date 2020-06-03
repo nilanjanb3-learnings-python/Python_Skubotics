@@ -1,0 +1,13 @@
+l=[]
+x = int(input ("Write value of x"))
+y = int(input ("Write value of y"))
+z = int(input ("Write value of z"))
+l.append(int(x))
+l.append(int(y))
+l.append(int(z))
+print(list(l))
+print("Greatest"+str(max(l)))
+print("Lowest"+str(min(l)))
+a=list(l.sort())
+print("Greatest"+str(a.index(0)))
+print("Lowest"+str(a.index(2)))
